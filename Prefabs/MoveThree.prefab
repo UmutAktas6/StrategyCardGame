@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MoveThree
       objectReference: {fileID: 0}
+    - target: {fileID: 5882304832320234080, guid: 12938db3dd29cc6479098ac2fc767fbf, type: 3}
+      propertyPath: m_text
+      value: 3 birim ilerle
+      objectReference: {fileID: 0}
     - target: {fileID: 7547147133293098384, guid: 12938db3dd29cc6479098ac2fc767fbf, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
