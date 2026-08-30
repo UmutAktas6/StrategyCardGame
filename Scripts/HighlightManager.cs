@@ -14,7 +14,7 @@ public class HighlightManager : MonoBehaviour
     void Update()
     {
         Vector2 worldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector3Int cell = mapGrid.WorldToCell(worldPos);
+        Vector3Int cell = highlightGrid.WorldToCell(worldPos);
 
         // Clear old highlight
         if (lastCell != new Vector3Int(int.MinValue, int.MinValue, int.MinValue) && lastCell != cell)
