@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ArmyDefinition : MonoBehaviour
+public class UnitDefinition : MonoBehaviour
 {
     public enum ArmyType
     {

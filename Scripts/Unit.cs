@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Army : MonoBehaviour
+public class Unit : MonoBehaviour
 {
-    public ArmyDefinition.ArmyType armyType;
+    public UnitDefinition.ArmyType armyType;
     public string name;
     public string description;
     public int health;
@@ -12,7 +12,7 @@ public class Army : MonoBehaviour
     public int defence;
     public string stringValue => $"{defence} {attack} {health} {description} {name} {armyType}";
 
-    public Army(ArmyDefinition.ArmyType armyType, string name, string description, int health, int attack, int defence)
+    public Unit(UnitDefinition.ArmyType armyType, string name, string description, int health, int attack, int defence)
     {
         this.armyType = armyType;
         this.name = name;
