@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class UnitDefinition : MonoBehaviour
 {
-    public enum ArmyType
+    public enum UnitType
     {
         Worker,
         Swordmen,

@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class Unit : MonoBehaviour
 {
-    public UnitDefinition.ArmyType armyType;
+    public UnitDefinition.UnitType unitType;
     public string name;
     public string description;
     public int health;
     public int attack;
     public int defence;
-    public string stringValue => $"{defence} {attack} {health} {description} {name} {armyType}";
+    public string stringValue => $"{defence} {attack} {health} {description} {name} {unitType}";
 
-    public Unit(UnitDefinition.ArmyType armyType, string name, string description, int health, int attack, int defence)
+    public Unit(UnitDefinition.UnitType unitType, string name, string description, int health, int attack, int defence)
     {
-        this.armyType = armyType;
+        this.unitType = unitType;
         this.name = name;
         this.description = description;
         this.health = health;
