@@ -1,24 +1,21 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Unit : MonoBehaviour
+public class Unit
 {
-    public UnitDefinition.UnitType unitType;
-    public string name;
-    public string description;
-    public int health;
-    public int attack;
-    public int defence;
-    public string stringValue => $"{defence} {attack} {health} {description} {name} {unitType}";
+    public UnitDefinition unitDefinition;
+    public string Name => unitDefinition.name;
+    public string Description => unitDefinition.description;
+    public int Attack => unitDefinition.attack;
+    public int Defence => unitDefinition.defence;
+    public int Health;
 
-    public Unit(UnitDefinition.UnitType unitType, string name, string description, int health, int attack, int defence)
+    public Type Type => unitDefinition.GetType();
+    public Unit(UnitDefinition unitDefinition)
     {
-        this.unitType = unitType;
-        this.name = name;
-        this.description = description;
-        this.health = health;
-        this.attack = attack;
-        this.defence = defence;
+        this.unitDefinition = unitDefinition;
+        this.Health = unitDefinition.health;    
     }
 }
