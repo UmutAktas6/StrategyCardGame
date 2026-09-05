@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: "ChatGPT Image 31 A\u011Fu 2026 23_29_16 (2)"
+  m_Name: StoneTile
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: 74258d1fd58fc2f42a1d1e7f34b55128, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 11f4177d085153b43a2d5aeca3f81cfa, type: 3}
+  m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.15686275}
   m_Transform:
     e00: 1
     e01: 0

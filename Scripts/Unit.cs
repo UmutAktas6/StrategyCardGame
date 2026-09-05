@@ -12,6 +12,7 @@ public class Unit
     public int Defence => unitDefinition.defence;
     public int Health;
 
+    public Nation ownedNation;
     public Type Type => unitDefinition.GetType();
     public Unit(UnitDefinition unitDefinition)
     {
