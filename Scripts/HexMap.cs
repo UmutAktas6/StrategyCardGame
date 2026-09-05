@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
-public class HexMap : MonoBehaviour
+public class HexMap : MonoBehaviour 
 {
     public Dictionary<Vector3Int, Hex> hexMap;
     public Dictionary<(Nation, Hex), NationHexState> nationHexStates;
